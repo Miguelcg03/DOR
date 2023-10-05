@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"></link>
+        <!-- Option 1: Include in HTML -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <title>Vista 1</title>
+    </head>
+
+    <body style="font-family: 'Times New Roman', Times, serif; background-color: black;" >
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="col">
+                    <h1 class="text-danger">sinNombre.com</h1>
+                </div>
+                <div class="col text-light text-right">
+                    <p class="d-inline"><a href="">ABOUT US</a> <i class="bi bi-circle-fill"></i></p>
+                    <p class="d-inline"><a href="">LOG IN</a>  <i class="bi bi-circle-fill"></i></p>
+                    <p class="d-inline"><a href="">INICIO</a>  <i class="bi bi-circle-fill"></i></p>
+                    <p class="d-inline"><a href="">RESERVA</a>  </p>
+                </div>
+
+            </nav>
+            <hr class="bg-danger">
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-5" style="background-color: black;">
+                    <div class="card border border-danger "style="background-color: black;">
+                        <div class="card-header text-light" style="background-color: black;">
+                            <h1>ALQUILER DE COCHES</h1>
+                        </div>
+                        <div class="card-body text-light"style="background-color: black;">
+                            <h5 class="card-title">Información acerca de nosotros</h5>
+                            <p class="card-text">Los mejores alquileres de coche , al mejor precio. Si buscas un alquiler barato este es tu sitio. 
+                                Tenerife es un lugar ideal para recorrerlo en coche gracias a sus distancias cortas.
+                                Con nuestro sistema de búsqueda te permitirá encontrar tu coche ideal debido a los numerosos colaboradores de rent a car</p>
+                        </div>
+                    </div>
+                    <div class="card border border-danger" style="background-color: black;">
+                        <div class="card-header  text-light" style="background-color: black;">
+                            <h2>Buscar coche más cercano</h2>
+                        </div>
+                        <div class="card-body text-light" style="background-color: black;">
+                            <form>
+                                <div class="form-group">
+                                    <label for="puntorecogida">Punto de recogida</label>
+                                    <input type="text" class="form-control" id="puntorecogida" placeholder="Dirección">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="fecharecogida">Fecha de recogida</label>
+                                        <input type="date" class="form-control" id="fecharecogida" placeholder="Fecha de recogida">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="horarecogida">Hora de recogida</label>
+                                        <input type="time" class="form-control" id="horarecogida" placeholder="Hora de recogida">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="fechaentrega">Fecha de entrega</label>
+                                        <input type="date" class="form-control" id="fechaentrega" placeholder="Fecha de entrega">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="horaentrega">Hora de entrega</label>
+                                        <input type="time" class="form-control" id="horaentrega" placeholder="Hora de entrega">
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                <button type="submit" class="btn btn-danger">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="border border-danger">
+                        <img src="coche.jpg" width="100%"/>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+
+</html>
